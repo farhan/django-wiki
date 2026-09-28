@@ -124,6 +124,9 @@ constraint-dependencies = [
     "pip<26.2.1",
 ]
 
+[tool.coverage.run]
+source_pkgs = ["django_notify", "wiki"]
+
 [tool.edx_lint]
 uv_constraints = []
 
